@@ -14,17 +14,17 @@
 ## Виконання проєкту
 ### 1. Створення віртуального середовища
 ```bash
-python -m venv myvenv
+python -m venv venv
 ```
 
 ### 2. Активація віртуального середовища
 - **Windows:**
 ```bash
-myvenv\Scripts\activate
+venv\Scripts\activate
 ```
 - **Mac/Linux:**
 ```bash
-source myvenv/bin/activate
+source venv/bin/activate
 ```
 
 ### 3. Встановлення бібліотек із requirements.txt
@@ -39,7 +39,8 @@ pip install notebook ipykernel
 
 ### 5. Запуск файлу DMLab_1.ipynb
 ```bash
-python -m ipykernel install --user --name=myvenv --display-name "Python (myvenv)"
-jupyter notebook
+python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+jupyter notebook DMLab_1.ipynb
 ```
+
 
